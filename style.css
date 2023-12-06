@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Taviraj:wght@700&display=swap');
+
+:root{
+    --bg-clr:#1b1f24;
+    --primary-clr:#12bdff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+header{
+    background-color:var(--bg-clr);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--primary-clr);
+    letter-spacing:1px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:var(--primary-clr);
+    
+}
+
+header button{
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: var(--bg-clr);
+    border: 1px solid var(--primary-clr);
+    color:var(--primary-clr);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* main styling */
+.name span{
+    color: var(--primary-clr);
+}
+
+.hero-section{
+    background-color: var(--bg-clr);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:1.2rem;
+}
+.text{
+    padding:0 0 30px 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text p{
+    color:gray;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons ul li{
+    margin-right: 15px;
+}
+.btn button{
+    margin-top: 15px;
+    padding: 10px;
+    margin-right:10px;
+}
+.btn button{
+    background-color:var(--bg-clr);
+    color: var(--primary-clr);
+    border:1px solid var(--primary-clr);
+    cursor: pointer;
+}
